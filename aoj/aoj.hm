@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<title>Aizu Online Judge</title>
+	</head>
+	<body>
+		<h2>Aizu Online Judge</h2>
+		<br>
+		<p>Aizu Online Judgeは会津大学が運営しているオンラインのプログラミングチャレンジである。</p>
+		<p>問題は主にパソコン甲子園などの過去問が多い。</p>
+		<p>また、使用可能な言語は</p>
+		<p>「C, C++, Java, C++11, C#, D, Ruby, Python, Python3, PHP, JavaScript」である。</p>
+		<br>
+		<h3 class="text_left">Volume 0</h3>
+		<ul class="text_left">
+			<li>
+				<h4>0000: QQ</h4>
+				<p>九九を出力する問題</p>
+			</li>
+			<li>
+				<h4>0001: List of Top 3 Hills</h4>
+				<p>10個の山の高さが入力され、その上位3つを出力する問題</p>
+			</li>
+			<li>
+				<h4>0002: Digit Number</h4>
+				<p>入力された2つの値の和を出力する問題</p>
+			</li>
+			<li>
+				<h4>0003: Is it a Right Triangle?</h4>
+				<p>辺の長さが3つ入力され、その3辺で直角三角形が構成されているかどうかを判定する問題</p>
+			</li>
+			<li>
+				<h4>0004: Simultaneous Equation</h4>
+				<p>連立方程式を求める問題</p>
+			</li>
+			<li>
+				<h4>0005: GCD and LCM</h4>
+				<p>最大公約数と最小公倍数を求める問題</p>
+			</li>
+			<li>
+				<h4>0006: Reverse Sequence</h4>
+				<p>文字列の逆順を出力する問題</p>
+			</li>
+			<li>
+				<h4>0007: Debt Hell</h4>
+				<p>借金の計算</p>
+			</li>
+			<li>
+				<h4>0008: Sum of 4 Integers</h4>
+				<p>和の組み合わせ問題</p>
+			</li>
+			<li>
+				<h4>0009: Prime Number</h4>
+				<p>素数の問題</p>
+			</li>
+		<ul>
+	</body>
+</html>

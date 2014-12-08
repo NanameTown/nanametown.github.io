@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<title>JavaScript</title>
+	</head>
+	<body>
+		<h2>JavaScript</h2>
+		<br>
+		<h3 class="">正規表現</h3>
+		<br>
+		<ul>
+			<li>
+				<a id="regexp_all" href="">すべての行（複数行）を取得</a>
+			</li>
+		</ul>
+	</body>
+</html>
