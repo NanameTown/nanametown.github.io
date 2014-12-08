@@ -8,6 +8,12 @@ $(function(){
 		call_text(root+parameter);
 	}
 
+	$("a.top_link").each(function(index){
+		$(this).attr("href",function(i,val){
+			return root+"index.html";
+		});
+	});
+
 	$("#articles a").each(function(index){
 		$(this).attr("href",function(i, val){
 			return "javascript:void(0)";
@@ -22,7 +28,8 @@ $(function(){
 
 	$(".subsection a").click(function(){
 		hm_url = root+$(this).attr("id")+"/"+$(this).attr("id")+".hm";
-		document.location.href = root+"index.html?"+$(this).attr("id")+"/"+$(this).attr("id")+".hm";
+		//document.location.href = root+"index.html?"+$(this).attr("id")+"/"+$(this).attr("id")+".hm";
+		document.location.search = $(this).attr("id")+"/"+$(this).attr("id")+".hm";
 		console.log(hm_url);
 		call_text(hm_url);
 	});
@@ -40,6 +47,9 @@ function call_text(url){
 			}else{
 				$("#articles").html("<h2>この記事は存在しないか、通信エラーの可能性があります。</h2>");
 			}
+		},
+		error: function(xhr, status, thrown){
+			$("#articles").html("<h2>この記事は存在しないか、通信エラーの可能性があります。</h2>");
 		}
  	});
 }
